@@ -11,7 +11,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint -c .eslintrc.js --ext .ts ./src",
     "lint:fix": "eslint -c .eslintrc.js --ext .ts ./src --fix",
-    "prepare": "npm run build && npm run build:doc",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "author": "",
