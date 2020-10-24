@@ -1,0 +1,25 @@
+{
+  "name": "chainide-types",
+  "version": "1.0.0",
+  "description": "ChinIDE external types",
+  "types": "index.d.js",
+  "scripts": {
+    "build:clean": "tsc --build --clean",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean; NODE_ENV=production tsc --project ./tsconfig.json",
+    "build:doc": "markdown-toc -i README.md",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint -c .eslintrc.js --ext .ts ./src",
+    "lint:fix": "eslint -c .eslintrc.js --ext .ts ./src --fix",
+    "prepare": "npm run build && npm run build:doc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}
