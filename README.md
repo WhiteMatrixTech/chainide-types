@@ -1,1 +1,1 @@
-# chainide-types
+# ChainIDE common types
