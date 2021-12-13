@@ -1,0 +1,8 @@
+{
+  "name": "chainide",
+  "version": "0.0.1",
+  "author": "xiadd",
+  "license": "MIT",
+  "main": "",
+  "types": "./index.d.ts"
+}
