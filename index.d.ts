@@ -1,5 +1,6 @@
+/// <reference types="react" />
+/// <reference lib="dom" />
 import { Event } from "@white-matrix/event-emitter";
-import * as React from "react";
 
 declare module chainide {
   type FileType = "-" | "d";
