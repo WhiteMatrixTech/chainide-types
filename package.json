@@ -1,8 +1,25 @@
 {
   "name": "@chainide/types",
   "version": "0.0.1",
-  "author": "xiadd",
+  "author": "chianide",
   "license": "MIT",
   "main": "",
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@white-matrix/event-emitter": "^1.0.0",
+    "@types/react": "^18.0.6",
+    "react": "^18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteMatrixTech/chainide-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhiteMatrixTech/chainide-types/issues"
+  },
+  "homepage": "https://github.com/WhiteMatrixTech/chainide-types#readme",
+  "description": ""
 }
